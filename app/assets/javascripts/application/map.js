@@ -11,5 +11,18 @@ function initialize() {
     map: map,
     title: "Mirabell Palace"
   });
+          
+  var kkMarker = new google.maps.Marker({
+    position: new google.maps.LatLng(47.799367,13.047225),
+    map: map,
+    title: "K+K Restuarant"
+  });
+
+  var kkHotel = new google.maps.Marker({
+    position: new google.maps.LatLng(47.806844,13.049722),
+    map: map,
+    title: "Hotel + Villa Auersperg"
+  });
+  
 }
 google.maps.event.addDomListener(window, 'load', initialize);
