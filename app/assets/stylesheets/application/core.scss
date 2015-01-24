@@ -59,4 +59,11 @@ h4 {
   content: " –"
 }
 
+.menu-course {
+  padding-top: 0.5em;
+  p { margin: 0.5em; }
+}
 
+.menu-course:before {
+  content: "* * *"
+}
