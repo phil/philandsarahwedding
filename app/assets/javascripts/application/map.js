@@ -11,7 +11,8 @@ function initialize() {
     { name : "Hotel&nbsp;&amp;&nbsp;Villa&nbspAuersperg", lat : 47.806844, lng : 13.049722 },
     { name : "Mirabell&nbsp;Palace", lat : 47.8054699, lng : 13.0416727 },
     { name : "Café&nbsp;Classic", lat : 47.802677, lng : 13.0438077 },
-    { name : "K+K&nbsp;Restuarant", lat : 47.799367, lng : 13.047225 }
+    { name : "K+K&nbsp;Restuarant", lat : 47.799367, lng : 13.047225 },
+    { name : "Restuarant&nbsp;Schlosswirt", lat : 47.746276, lng : 13.067603 }
   ]
 
   for (i = 0; i < markers.length; i++) {
